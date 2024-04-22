@@ -1,0 +1,5 @@
+file=open("exemple.txt", "r")
+content=file.read()
+c=open("copie.txt","w")
+c.write(content)
+print(content)
